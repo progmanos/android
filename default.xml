@@ -32,9 +32,10 @@
   <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" />
   <project path="device/geeksphone/zero" name="CyanogenMod/android_device_geeksphone_zero" />
   <project path="device/huawei/ascend" name="CyanogenMod/android_device_huawei_ascend" />
-  <project path="device/huawei/ideos" name="CyanogenMod/android_device_huawei_ideos" />
+  <project path="device/huawei/u8150" name="CyanogenMod/android_device_huawei_u8150" />
   <project path="device/huawei/u8220" name="CyanogenMod/android_device_huawei_u8220" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
+  <project path="device/htc/7x30-recovery" name="CyanogenMod/android_device_htc_7x30-recovery" />
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" />
   <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" />
   <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" />
@@ -76,6 +77,7 @@
   <project path="device/motorola/jordan" name="CyanogenMod/android_device_motorola_jordan" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" />
   <project path="device/motorola/motus" name="CyanogenMod/android_device_motorola_motus" />
+  <project path="device/motorola/olympus" name="CyanogenMod/android_device_motorola_olympus" />
   <project path="device/motorola/shadow" name="CyanogenMod/android_device_motorola_shadow" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" />
@@ -93,26 +95,34 @@
   <project path="device/samsung/fascinatemtd" name="CyanogenMod/android_device_samsung_fascinatemtd" />
   <project path="device/samsung/galaxyace" name="CyanogenMod/android_device_samsung_galaxyace" />
   <project path="device/samsung/galaxys2" name="CyanogenMod/android_device_samsung_galaxys2" />
+  <project path="device/samsung/galaxys2att" name="CyanogenMod/android_device_samsung_galaxys2att"/>
   <project path="device/samsung/galaxysmtd" name="CyanogenMod/android_device_samsung_galaxysmtd" />
   <project path="device/samsung/galaxys4g" name="CyanogenMod/android_device_samsung_galaxys4g" />
   <project path="device/samsung/mesmerizemtd" name="CyanogenMod/android_device_samsung_mesmerizemtd" />
   <project path="device/samsung/p7100" name="CyanogenMod/android_device_samsung_p7100" />
   <project path="device/samsung/showcasemtd" name="CyanogenMod/android_device_samsung_showcasemtd" />
   <project path="device/samsung/sidekick4g" name="CyanogenMod/android_device_samsung_sidekick4g" />
+  <project path="device/samsung/tass" name="CyanogenMod/android_device_samsung_tass" />
   <project path="device/samsung/vibrantmtd" name="CyanogenMod/android_device_samsung_vibrantmtd" />
   <project path="device/samsung/vzwtab" name="CyanogenMod/android_device_samsung_vzwtab" />
   <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" />
+  <project path="device/semc/coconut" name="CyanogenMod/android_device_semc_coconut" />
   <project path="device/semc/es209ra" name="CyanogenMod/android_device_semc_es209ra" />
   <project path="device/semc/hallon" name="CyanogenMod/android_device_semc_hallon" />
+  <project path="device/semc/iyokan" name="CyanogenMod/android_device_semc_iyokan" />
   <project path="device/semc/mango" name="CyanogenMod/android_device_semc_mango" />
   <project path="device/semc/mimmi" name="CyanogenMod/android_device_semc_mimmi" />
+  <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" />
   <project path="device/semc/msm7x27-common" name="CyanogenMod/android_device_semc_msm7x27-common" />
   <project path="device/semc/msm7x30-common" name="CyanogenMod/android_device_semc_msm7x30-common" />
   <project path="device/semc/robyn" name="CyanogenMod/android_device_semc_robyn" />
+  <project path="device/semc/satsuma" name="CyanogenMod/android_device_semc_satsuma" />
   <project path="device/semc/shakira" name="CyanogenMod/android_device_semc_shakira" />
   <project path="device/semc/smultron" name="CyanogenMod/android_device_semc_smultron" />
   <project path="device/semc/urushi" name="CyanogenMod/android_device_semc_urushi" />
   <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" />
+  <project path="device/semc/zeusc" name="CyanogenMod/android_device_semc_zeusc" />
+  <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" />
   <project path="device/zte/blade" name="CyanogenMod/android_device_zte_blade" />
   <project path="device/zte/v9" name="CyanogenMod/android_device_zte_v9" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
@@ -229,7 +239,12 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
+  <project path="hardware/ti/omap3-compat" name="CyanogenMod/android_hardware_ti_omap3-compat" />
+  <project path="hardware/ti/omx" name="CyanogenMod/android_hardware_ti_omx" />
+  <project path="hardware/ti/syslink" name="CyanogenMod/android_hardware_ti_syslink" />
+  <project path="hardware/ti/tiler" name="CyanogenMod/android_hardware_ti_tiler" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" />
@@ -268,6 +283,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
@@ -298,7 +314,7 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
-  <project path="system/su" name="CyanogenMod/android_system_su" revision="master" />
+  <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
 
