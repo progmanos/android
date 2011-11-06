@@ -1,0 +1,32 @@
+This is Tickerguy's "android" manifest to build CM7 for the Triumph.
+11/6/2011
+
+Why a difference manifest?  Several reasons:
+
+1. The Triumph requires AMSS 50001 for the GPS.  CM7 does not at present
+support this so the entire gps directory structure was invalid for this device.
+Yes, that's a hack - it probably should have been merged in, but I didn't.
+You're free to and then submit it via Gerrit.
+
+2. There are material changes to the RIL; these SHOULDN'T break other devices
+but......  
+
+3. There are material changes to MMS handling.  These may also break other
+devices.  They were pulled from inferiorhumanorgans work on the Optimus
+port for Virgin Mobile.
+
+4. There are a number of other minor changes relating to the msm7k hardware,
+specifically, the headphone switch routing.
+
+5. There are significant changes required for the camera; camera support
+in this build is an ugly, nasty HACK.  It works, but I'm not proud of it.
+
+To build from "zero" you need both the Froyo load (which you have on a base
+phone) and the CHERRY Android code load from which you need files for the
+camera and a few other things.  If you don't have both the build will fail.
+See the make files in the vendor and device areas for the exact files you
+need from each; it's clear if you know what you're doing.
+
+Please note that I have verified that this codebase (along with the REQUIRED
+kernel for the Triumph which is a separate repo) builds from "zero base".
+
